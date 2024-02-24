@@ -27,7 +27,8 @@ while (have_posts()) {
 </div>
     <?php }
       
-<!--
+      // Commented out section
+      /*
       <div class="page-links">
         <h2 class="page-links__title"><a href="#">About Us</a></h2>
         <ul class="min-list">
@@ -35,7 +36,9 @@ while (have_posts()) {
           <li><a href="#">Our Goals</a></li>
         </ul>
       </div>
--->
+      */
+      ?>
+      
       <div class="generic-content">
         <?php the_content();?>
       </div>
